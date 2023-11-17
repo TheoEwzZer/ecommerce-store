@@ -9,6 +9,7 @@ import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.share
 
 import Currency from "@/components/ui/currency";
 import IconButton from "@/components/ui/icon-button";
+import usePreviewModal, { PreviewModalStore } from "@/hooks/use-preview-modal";
 import { Product } from "@/types";
 
 interface ProductCard {
@@ -16,6 +17,7 @@ interface ProductCard {
 }
 
 function ProductCard({ data }: ProductCard): ReactElement {
+  const previewModal: PreviewModalStore = usePreviewModal();
   const router: AppRouterInstance = useRouter();
 
   const handleClick: () => void = (): void => {
@@ -26,6 +28,8 @@ function ProductCard({ data }: ProductCard): ReactElement {
     event: React.MouseEvent<HTMLButtonElement>
   ): void => {
     event.stopPropagation();
+
+    previewModal.onOpen(data);
   };
 
   const onAddToCart: React.MouseEventHandler<HTMLButtonElement> = (

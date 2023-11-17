@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.0.0...v1.1.0) (2023-11-17)
+
+
+### ✨ Features
+
+* add individual product screen ([2b87989](https://github.com/TheoEwzZer/ecommerce-store/commit/2b879896c932d2542de84dead57ecc231c7bc9d3))
+
+
+### 📦 Dependencies
+
+* add @headlessui/react dependency ([ce211df](https://github.com/TheoEwzZer/ecommerce-store/commit/ce211df6bcfe702f7441ee6e73c6f5976af05321))
+
 ## 1.0.0 (2023-11-17)
 
 

@@ -4,8 +4,10 @@ import { ReactElement, useEffect, useState } from "react";
 
 import { ShoppingBag } from "lucide-react";
 import { useRouter } from "next/navigation";
-import Button from "@/components/ui/button";
 import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
+
+import Button from "@/components/ui/button";
+import useCart, { CartStore } from "@/hooks/use-cart";
 
 function NavbarActions(): ReactElement | null {
   const [isMounted, setIsMounted] = useState<boolean>(false);
@@ -15,6 +17,7 @@ function NavbarActions(): ReactElement | null {
   }, []);
 
   const router: AppRouterInstance = useRouter();
+  const cart: CartStore = useCart();
 
   if (!isMounted) {
     return null;
@@ -30,7 +33,7 @@ function NavbarActions(): ReactElement | null {
           size={20}
           color="white"
         />
-        <span className="ml-2 text-sm font-medium text-white">0</span>
+        <span className="ml-2 text-sm font-medium text-white">{cart.items.length}</span>
       </Button>
     </div>
   );

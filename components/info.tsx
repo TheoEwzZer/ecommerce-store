@@ -1,3 +1,5 @@
+"use client";
+
 import { ReactElement } from "react";
 
 import { ShoppingCart } from "lucide-react";

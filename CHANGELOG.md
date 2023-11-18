@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.4.0...v1.4.1) (2023-11-18)
+
+
+### 🐛 Bug Fixes
+
+* add postinstall script to generate Prisma client ([8cad587](https://github.com/TheoEwzZer/ecommerce-store/commit/8cad587649e768312af3b4916ff8e7a971e198d9))
+
 ## [1.4.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.3.0...v1.4.0) (2023-11-18)
 
 

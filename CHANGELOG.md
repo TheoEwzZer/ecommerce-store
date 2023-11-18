@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.1.0...v1.2.0) (2023-11-17)
+
+
+### ✨ Features
+
+* add individual category screen ([fbcc73d](https://github.com/TheoEwzZer/ecommerce-store/commit/fbcc73d54d6d3f970b2180cc82cdd42b8b1ca156))
+
 ## [1.1.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.0.0...v1.1.0) (2023-11-17)
 
 

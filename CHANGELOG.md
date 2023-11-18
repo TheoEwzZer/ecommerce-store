@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.4.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.3.0...v1.4.0) (2023-11-18)
+
+
+### ✨ Features
+
+* add cart components and page ([d96b69d](https://github.com/TheoEwzZer/ecommerce-store/commit/d96b69d84abb271e28b346de7b57542fc4e08986))
+* add cart functionality to product info and navbar actions components ([3663b82](https://github.com/TheoEwzZer/ecommerce-store/commit/3663b82854316d669934bb3da389f1278156ad4d))
+* add ToastProvider component ([e981fea](https://github.com/TheoEwzZer/ecommerce-store/commit/e981fea99caaf7e38c1db915075fde739c76c354))
+* add useCart hook for managing cart state ([56574ed](https://github.com/TheoEwzZer/ecommerce-store/commit/56574ed46bd32879121c560fe62bae064d5d7ea9))
+
+
+### ♻️ Code Refactoring
+
+* fix type declaration for isMounted variable ([adeda2e](https://github.com/TheoEwzZer/ecommerce-store/commit/adeda2e2f0c643d115c5e1ff8cf663189c6b9a5c))
+
+
+### 📦 Dependencies
+
+* add react-hot-toast package ([d005e02](https://github.com/TheoEwzZer/ecommerce-store/commit/d005e02c5c3ed88aa72d802cdf3434d41f84d18e))
+
 ## [1.3.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.2.0...v1.3.0) (2023-11-18)
 
 

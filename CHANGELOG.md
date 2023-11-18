@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.4.1...v2.0.0) (2023-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* add loading components for category and product routes
+
+### ✨ Features
+
+* add loading components for category and product routes ([258b828](https://github.com/TheoEwzZer/ecommerce-store/commit/258b828f33a4bd9784b0919c769423a86a17289f))
+
+
+### 🐛 Bug Fixes
+
+* add client import statement to info.tsx ([ddbedd0](https://github.com/TheoEwzZer/ecommerce-store/commit/ddbedd03a5a4212aaa4e73bf6487d3a5c101602f))
+* remove postinstall script ([6a89996](https://github.com/TheoEwzZer/ecommerce-store/commit/6a899963bd6a12b226e37106507009bb82ddca66))
+
 ## [1.4.1](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.4.0...v1.4.1) (2023-11-18)
 
 

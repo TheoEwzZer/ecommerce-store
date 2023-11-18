@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.3.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.2.0...v1.3.0) (2023-11-18)
+
+
+### ✨ Features
+
+* add ModalProvider component ([697a6e2](https://github.com/TheoEwzZer/ecommerce-store/commit/697a6e2139a0b08e1362077bf5ec3462b865b0a2))
+* add ModalProvider component to RootLayout ([7593d92](https://github.com/TheoEwzZer/ecommerce-store/commit/7593d92fc6f0ab02eee319c90bdc397846e2a5d1))
+* add preview modal component and update product card component ([fe9907d](https://github.com/TheoEwzZer/ecommerce-store/commit/fe9907ddae4f380417d6a52ed65e4acad31d6bee))
+* add usePreviewModal hook ([ecd10bd](https://github.com/TheoEwzZer/ecommerce-store/commit/ecd10bda4072ee1742fa470d6ecfb6ef45107282))
+
+
+### 📦 Dependencies
+
+* add zustand package ([8368f7f](https://github.com/TheoEwzZer/ecommerce-store/commit/8368f7f1183fa99a55ac60c1fc553f71e435d934))
+
 ## [1.2.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.1.0...v1.2.0) (2023-11-17)
 
 

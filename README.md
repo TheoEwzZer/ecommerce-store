@@ -60,13 +60,13 @@ The project is an ecommerce store built using Next.js and React. It allows users
 | 🔐  | **Clerk Authentication**      | Implement secure authentication using Clerk, safeguarding user accounts and ensuring data privacy.                                                                                                     |
 
 <div align="center">
-  <img src="public/images/Capture1.PNG" alt="Image 1" style="width: 49%;"/>
-  <img src="public/images/Capture2.PNG" alt="Image 2" style="width: 49%;"/>
+  <img src="public/images/Capture1.png" alt="Image 1" style="width: 49%;"/>
+  <img src="public/images/Capture2.png" alt="Image 2" style="width: 49%;"/>
 </div>
 
 <div align="center">
-  <img src="public/images/Capture3.PNG" alt="Image 3" style="width: 49%;"/>
-  <img src="public/images/Capture4.PNG" alt="Image 4" style="width: 49%;"/>
+  <img src="public/images/Capture3.png" alt="Image 3" style="width: 49%;"/>
+  <img src="public/images/Capture4.png" alt="Image 4" style="width: 49%;"/>
 </div>
 
 ---

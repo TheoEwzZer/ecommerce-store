@@ -13,7 +13,7 @@ export const revalidate = 0;
 
 async function HomePage(): Promise<ReactElement> {
   const products: Product[] = await getProducts({ isFeatured: true });
-  const billboard = await getBillboard("c8726b3b-3b28-49ed-a010-2d95788760d5");
+  const billboard = await getBillboard("597c3047-b44c-480b-bec2-40be24d7f1eb");
 
   return (
     <Container>

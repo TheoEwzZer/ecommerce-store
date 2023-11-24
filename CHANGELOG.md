@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.0.1](https://github.com/TheoEwzZer/ecommerce-store/compare/v2.0.0...v2.0.1) (2023-11-24)
+
+
+### 🐛 Bug Fixes
+
+* fix data.label rendering issue ([99b38bb](https://github.com/TheoEwzZer/ecommerce-store/commit/99b38bb8113ef184aa721d03a6fd49c5d67758dc))
+* update billboard ID in HomePage component ([e9e0ae1](https://github.com/TheoEwzZer/ecommerce-store/commit/e9e0ae1f6a414a5d99ee3681c6c4a6ace11d8061))
+
+
+### 📦 Dependencies
+
+* bump @types/node from 20.9.1 to 20.9.2 ([ecb8d29](https://github.com/TheoEwzZer/ecommerce-store/commit/ecb8d29d72bf8c0ee70373a5df3b41d96b69718f))
+* bump @types/node from 20.9.2 to 20.9.3 ([b0a6084](https://github.com/TheoEwzZer/ecommerce-store/commit/b0a6084c5ed4e92a4caf2863d29dc81c8b13f828))
+* bump @types/node from 20.9.3 to 20.9.4 ([28b7486](https://github.com/TheoEwzZer/ecommerce-store/commit/28b74865a1a7ffa10c6acf443fc4ee9e1177edb4))
+* bump @types/node from 20.9.4 to 20.9.5 ([636c16f](https://github.com/TheoEwzZer/ecommerce-store/commit/636c16fa93dc0ddfcafb12fb51f84366abd6637f))
+* bump @types/react from 18.2.37 to 18.2.38 ([582aeb1](https://github.com/TheoEwzZer/ecommerce-store/commit/582aeb1e76887a1402b64348b3fc4bc7e2237c78))
+* bump @types/react-dom from 18.2.15 to 18.2.16 ([5831aa7](https://github.com/TheoEwzZer/ecommerce-store/commit/5831aa7d2a26a192378174c286183fdab87c0216))
+* bump @types/react-dom from 18.2.16 to 18.2.17 ([f6b0c33](https://github.com/TheoEwzZer/ecommerce-store/commit/f6b0c334fca86c29991fb0b7f5246d902c1f9193))
+* bump eslint from 8.53.0 to 8.54.0 ([c5c2a06](https://github.com/TheoEwzZer/ecommerce-store/commit/c5c2a06635d55f7119f5f838b2c468c3760bc364))
+
+
+### 📝 Documentation
+
+* add images README ([d19cf80](https://github.com/TheoEwzZer/ecommerce-store/commit/d19cf8023129a3b4b087c9be658b0305e1b7f21f))
+* update image file extensions in README.md ([09c5732](https://github.com/TheoEwzZer/ecommerce-store/commit/09c5732868f4c48c11a0828a1ed9a6f90477571e))
+* update README ([5cb8039](https://github.com/TheoEwzZer/ecommerce-store/commit/5cb803959422fe9b7a75c2e4bc526ebbaa08dbf9))
+
 ## [2.0.0](https://github.com/TheoEwzZer/ecommerce-store/compare/v1.4.1...v2.0.0) (2023-11-18)
 
 

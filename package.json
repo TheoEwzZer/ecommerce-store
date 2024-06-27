@@ -19,7 +19,7 @@
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "tailwind-merge": "^2.3.0",
-    "zustand": "^4.5.3"
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "^20",

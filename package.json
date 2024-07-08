@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^2.1.1",
+    "@headlessui/react": "^2.1.2",
     "axios": "^1.7.2",
     "clsx": "^2.1.1",
     "lucide-react": "^0.402.0",

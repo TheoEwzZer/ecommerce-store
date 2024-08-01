@@ -36,10 +36,7 @@ function CartPage(): ReactElement | null {
               <ul>
                 {cart.items.map(
                   (item: Product): ReactElement => (
-                    <CartItem
-                      key={item.id}
-                      data={item}
-                    />
+                    <CartItem key={item.id} data={item} />
                   )
                 )}
               </ul>

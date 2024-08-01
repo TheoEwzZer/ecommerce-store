@@ -8,24 +8,42 @@ import { ReactElement } from "react";
 
 import { Product } from "@/types";
 
-export const revalidate = 0;
-
 interface ProductPageProps {
+  product: Product;
+  suggestedProducts: Product[];
+}
+
+interface Params {
   params: {
     productId: string;
   };
 }
 
-async function ProductPage({ params }: ProductPageProps): Promise<ReactElement | null> {
+export async function getStaticProps({ params }: Params) {
   const product = await getProduct(params.productId);
   const suggestedProducts: Product[] = await getProducts({
     categoryId: product?.category?.id,
   });
 
   if (!product) {
-    return null;
+    return {
+      notFound: true,
+    };
   }
 
+  return {
+    props: {
+      product,
+      suggestedProducts,
+    },
+    revalidate: 0,
+  };
+}
+
+const ProductPage = ({
+  product,
+  suggestedProducts,
+}: ProductPageProps): ReactElement => {
   return (
     <div className="bg-white">
       <Container>
@@ -37,14 +55,11 @@ async function ProductPage({ params }: ProductPageProps): Promise<ReactElement |
             </div>
           </div>
           <hr className="my-10" />
-          <ProductList
-            title="Related Items"
-            items={suggestedProducts}
-          />
+          <ProductList title="Related Items" items={suggestedProducts} />
         </div>
       </Container>
     </div>
   );
-}
+};
 
 export default ProductPage;

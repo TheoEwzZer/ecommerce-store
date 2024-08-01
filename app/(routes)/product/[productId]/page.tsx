@@ -9,41 +9,23 @@ import { ReactElement } from "react";
 import { Product } from "@/types";
 
 interface ProductPageProps {
-  product: Product;
-  suggestedProducts: Product[];
-}
-
-interface Params {
   params: {
     productId: string;
   };
 }
 
-export async function getStaticProps({ params }: Params) {
+async function ProductPage({
+  params,
+}: ProductPageProps): Promise<ReactElement | null> {
   const product = await getProduct(params.productId);
   const suggestedProducts: Product[] = await getProducts({
     categoryId: product?.category?.id,
   });
 
   if (!product) {
-    return {
-      notFound: true,
-    };
+    return null;
   }
 
-  return {
-    props: {
-      product,
-      suggestedProducts,
-    },
-    revalidate: 0,
-  };
-}
-
-const ProductPage = ({
-  product,
-  suggestedProducts,
-}: ProductPageProps): ReactElement => {
   return (
     <div className="bg-white">
       <Container>
@@ -60,6 +42,6 @@ const ProductPage = ({
       </Container>
     </div>
   );
-};
+}
 
 export default ProductPage;

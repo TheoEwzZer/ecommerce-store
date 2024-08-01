@@ -14,13 +14,6 @@ import Filter from "./components/filter";
 import MobileFilters from "./components/mobile-filters";
 
 interface CategoryPageProps {
-  products: Product[];
-  sizes: Size[];
-  colors: Color[];
-  category: Category;
-}
-
-interface Params {
   params: {
     categoryId: string;
   };
@@ -30,7 +23,10 @@ interface Params {
   };
 }
 
-export async function getStaticProps({ params, searchParams }: Params) {
+async function CategoryPage({
+  params,
+  searchParams,
+}: CategoryPageProps): Promise<ReactElement> {
   const products: Product[] = await getProducts({
     categoryId: params.categoryId,
     colorId: searchParams.colorId,
@@ -40,29 +36,6 @@ export async function getStaticProps({ params, searchParams }: Params) {
   const colors: Color[] = await getColors();
   const category: Category = await getCategory(params.categoryId);
 
-  if (!category) {
-    return {
-      notFound: true,
-    };
-  }
-
-  return {
-    props: {
-      products,
-      sizes,
-      colors,
-      category,
-    },
-    revalidate: 0,
-  };
-}
-
-const CategoryPage = ({
-  products,
-  sizes,
-  colors,
-  category,
-}: CategoryPageProps): ReactElement => {
   return (
     <div className="bg-white">
       <Container>
@@ -89,6 +62,6 @@ const CategoryPage = ({
       </Container>
     </div>
   );
-};
+}
 
 export default CategoryPage;

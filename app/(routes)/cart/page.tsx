@@ -9,8 +9,6 @@ import Summary from "./components/summary";
 import CartItem from "./components/cart-item";
 import { Product } from "@/types";
 
-export const revalidate = 0;
-
 function CartPage(): ReactElement | null {
   const [isMounted, setIsMounted] = useState<boolean>(false);
   const cart: CartStore = useCart();
